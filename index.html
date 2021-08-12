@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Emotion To Emoji</title>
+  <title>Hand gesture app</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -44,13 +44,13 @@
         <label>webcam View - </label>
         <div id="camera"></div>
         <br><br>
-        <button onclick="takeSnapshot();" class="btn btn-warning">Capture Image</button>
+        <button onclick="snapshot();" class="btn btn-warning">Capture Image</button>
       </div>
 
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
         <label>prediction- </label>
-        <p id="result_emotion_name" class="emotion_name"></p>
-        <p id="update_emojie" class="emojie"></p>
+        <p id="result_gesture_name" class="gesture_name"></p>
+        <p id="update_gesture" class="gesture"></p>
       </div>
       
       <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
